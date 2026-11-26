@@ -1,4 +1,4 @@
-# Gatewright
+# Code Review & Regression Gate Engine
 
 A deterministic TypeScript engine for staged code review and regression checks. A review verdict alone cannot mark a change verified. The workflow requires passing checks, evidence for every mandatory criterion, and a passing final gate.
 
