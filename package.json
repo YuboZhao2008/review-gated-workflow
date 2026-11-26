@@ -1,0 +1,15 @@
+{
+  "name": "review-gated-workflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic TypeScript workflow engine for evidence-backed review and regression gates.",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "demo": "node src/demo.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "4.6.7" },
+  "devDependencies": { "typescript": "6.0.3", "vitest": "5.1.0" }
+}
